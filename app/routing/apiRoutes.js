@@ -1,5 +1,8 @@
-
+var express = require('express');
 var path = require('path');
+var bodyParser = require('body-parser');
+var app = express();
+var PORT = 3000;
 
 //import the filr feild entries
 var friends = require('../data/friends.js');
@@ -11,7 +14,7 @@ module.exports = function(app){
 
 app.post('/api/friends',function(req, res){
 
-//Captyre the user input
+//Capture the user input
 var userInput = req.body;
 console.log('userInput=' + JSON.stringify(userInput));
 var userResponses = userInput.scores;
