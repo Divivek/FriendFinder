@@ -21,31 +21,31 @@ var userResponses = userInput.scores;
 console.log('userInput' + userResponses);
 // compute best friend match)
 var matchName = '';
-
+var totalDifference = 9999;
 //check all the existing friends in the list
 for (var i = 0; i < friends.length; i++) {
 	 console.log('friends = ' + JSON.stringify(friends[i]));
-}
+//}
 	 //compute differences
 	 var diff =0;
 	 for(var j =0; j < userResponses.length; j++) {
 	 	diff += Math.abs(friends[i].scores[j] - userResponses[j]);
 
-}
+
 console.log('diff = '+diff);
 
 
 	if(diff < totalDifference) {
 		console.log('closest match found' + diff);
-		console.log('friends name= ' +friend[i].name);
-		console.log('friends Image = '+ friend[i].photo);
+		console.log('friends name= ' +friends[i].name);
+		console.log('friends Image = '+ friends[i].photo);
 
 		totalDifference = diff;
 		matchName = friends[i].name;
-		matchImage =friends[i],photo;
+		matchImage =friends[i].photo;
 	}
-
-friends.push (userInput);
+}}
+//friends.push (userInput);
 res.json({status:'ok',matchName:matchName,matchImage:matchImage});
 
 })

@@ -12,10 +12,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Compiled and minified Materialize JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
           
 	 <link rel="stylesheet" href="css/style.css"> 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"</script>
 </head>
 
 <body>
@@ -23,17 +24,13 @@
 	<div class="container">
 
 		<div class="jumbotron">
-			<h1 class="text-center"> <span> <a><imgsrc="image/image1.png">Friend Finder </a></span></h1>	
-			
-			
-			</div>
-
+			<h1 class="text-center"> <span> <a><img src="image/image1.png">Friend Finder </a></span></h1>	
 		</div>
-			<hr>
-			<h2 class="text-center">Survey Questions</h2>
-			<br>
 
-			
+	</div>
+	<hr>
+	<h2 class="text-center">Survey Questions</h2>
+	<br>
 		<div class="row">
 			<div class="col-lg-12">
 
@@ -48,21 +45,38 @@
 
 							<div class="form-group">
 								<label for="name">Name(Required)</label>
-								<input type="text" class="form-control" id="reserve_name">
+								<input type="text" class="form-control" id="userName">
 							</div>
 
 							<div class="form-group">
 								<label for="link">Link to Photo Image(Required)</label>
-								<input type="text" class="form-control" id="imgurl">
+								<input type="text" class="form-control" id="userPhoto">
 							</div>
 
 
 
-								<div class="form-group">
-								<label for="que1">Question 1 <br> Your mind is always buzzing with unexplored ideas and plans.</label><br>
+ <div class="input-field col s12">
+
+
+
+ <h3><strong>Question 1</strong></h3>
+    <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+
+								 <div class="form-group">
+							 <label for="que1">Question 1  --> -<br>  Your mind is always buzzing with unexplored ideas and plans.</label><br>
 								
 								<select id = "question1">
-								<!-- <option value ="" disabled selected>Choose from options</options> -->
+								<option value ="" disabled selected>Choose from options</options>
 								<option value="1"> 1(Strongly Disagree)</option>
 								<option value ="2">2</option>
 								<option value="3"> 3 </option>
@@ -73,11 +87,11 @@
 								
 
 								<div class="form-group">
-								<label for="que2">Question 2 <br> Generally speaking, you rely more on your experience than your imagination.</label><br>
+								<label for="que2">Question 2 <br> Generally speaking, you rely more on your experience than your imagination.</label> <br>
 								<select id = "question2">
 								<option value ="choose" disabled selected>Choose from options</options>
-								<option value="1"> 1(Strongly Disagree)</option>
-								<option value = "2">2</option>
+								<option value="1"> 1(Strongly Disagree) </option>
+								<option value = "2">2 </option>
 								<option value ="3"> 3 </option>
 								<option value="4"> 4 </option>
 								<option value="5"> 5(Strongly Agree) </option>
@@ -89,9 +103,9 @@
 							<div class="form-group">
 								<label for="que3">Question 3 <br>You find it easy to stay relaxed and focused even when there is some pressure.</label><br>
 								<select id = "question3">
-								<option value ="" disabled selected>Choose from options</options>
-								<option value="1"> 1(Strongly Disagree)</option>
-								<option value = "2">2</option>
+								<option value ="" disabled selected>Choose from options </options>
+								<option value="1"> 1(Strongly Disagree) </option>
+								<option value = "2">2 </option>
 								<option value="3"> 3 </option>
 								<option value="4"> 4 </option>
 								<option value="5"
@@ -116,7 +130,7 @@
 							<div class="form-group">
 								<label for="que5">Question 5 <br> People can rarely upset you.</label><br>
 								<select id = "question5">
-								<option value ="" disabled selected>Choose from options</options>
+								<!-- <option value ="" disabled selected>Choose from options</options> -->
 								<option value="1"> 1(Strongly Disagree)</option>
 								<option value = "2">2</option>
 								<option value="3"> 3 </option>
@@ -127,11 +141,11 @@
 
 
 							<div class="form-group">
-								<label for="que6">Question 6 <br>It is often difficult for you to relate to other people’s feelings.</label><br>
+								<label for="que6">Question 6 <br>It is often difficult for you to relate to other people’s feelings.</label> <br>
 								<select id = "question6">
 								<option value ="" disabled selected>Choose from options</options>
 								<option value="1"> 1(Strongly Disagree)</option>
-								<option value = "2">2</option>
+								<option value = "2">2 </option>
 								<option value="3"> 3 </option>
 								<option value="4"> 4 </option>
 								<option value="5"> 5(Strongly Agree) </option>
@@ -144,7 +158,7 @@
 								<select id = "question7">
 								<option value ="" disabled selected>Choose from options</options>
 								<option value="1"> 1(Strongly Disagree)</option>
-								<option value = "2">2</option>
+								<option value = "2">2 </option>
 								<option value="3"> 3 </option>
 								<option value="4"> 4 </option>
 								<option value="5"> 5(Strongly Agree) </option>
@@ -153,11 +167,11 @@
 
 
 							<div class="form-group">
-								<label for="que8">Question 8 <br>You rarely get carried away by fantasies and ideas.</label><br>
+								<label for="que8">Question 8 <br>You rarely get carried away by fantasies and ideas.</label> <br>
 								<select id = "question8">
 								<option value ="" disabled selected>Choose from options</options>
 								<option value="1"> 1(Strongly Disagree)</option>
-								<option value = "2">2</option>
+								<option value = "2">2 </option>
 								<option value="3"> 3 </option>
 								<option value="4"> 4 </option>
 								<option value="5"> 5(Strongly Agree) </option>
@@ -166,13 +180,13 @@
 
 
 							<div class="form-group">
-								<label for="que9">Question 9 <br>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label><br>
+								<label for="que9">Question 9 <br>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label> <br>
 								<select id = "question9">
 								<option value ="choose" disabled selected>Choose from options</options>
 								<option value="1"> 1(Strongly Disagree)</option>
-								<option value = "2">2</option>
+								<option value = "2">2 </option>
 								<option value="3"> 3 </option>
-								<option bvalue="4"> 4 </option>
+								<option value="4"> 4 </option>
 								<option value="5"> 5(Strongly Agree) </option>
 								</select>
 							</div>
@@ -181,9 +195,9 @@
 							<div class="form-group">
 								<label for="que10">Question 10 <br>You feel more energetic after spending time with a group of people.</label><br>
 								<select id = "question10">
-								<option value ="choose" disabled selected>Choose from options</options>
+								<option value ="choose" disabled selected>Choose from options </options>
 								<option value="1"> 1(Strongly Disagree)</option>
-								<option value = "2">2</option>
+								<option value = "2">2 </option>
 								<option value="3"> 3 </option>
 								<option value ="4"> 4 </option>
 								<option value="5"
@@ -195,7 +209,7 @@
 							</div> 
 							
 
-							<button type="submit" class="btn btn-primary submit">Submit</button>
+							<button type="submit" class="btn btn-primary submit" name="action" id="submitButton">Submit</button>
 						</form>
 
 					</div>
@@ -206,9 +220,11 @@
 
 
 	    <footer class="footer">
-	      <div class="container">API Friends List</a> | <a href="/api/waitlist">API Git Hub Ripo</a> </p>
-	      </div>
-	    </footer>
+      <div class="container">
+	        <p><a href="/api/tables">API friends list</a> | <a href="https://github.com/Divivek/FriendFinder">
+	        API Git Hub Repo</a></p>
+      </div>
+    </footer>
 
 	</div>
 
@@ -227,7 +243,7 @@
 	</div>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$('select').material_select();
+			// $('select').material_select();
 			$('.modal').modal({
 				dismissible: false, // Modal can be dismissed by clicking outside of the modal
 				opacity: .5, // Opacity of modal background
@@ -266,8 +282,8 @@
       		.done(function(data) {
       			// console.log('response = ' + JSON.stringify(data));
       			// Set the name and image values of friend match
-      			$('#userMatch').html(data.name);
-		    	$("#userMatchImage").attr("src", data.photo);
+      			$('#userMatch').html(data.matchName);
+		    	$("#userMatchImage").attr("src", data.matchImage);
 		    	// Pop open the modal dialog
       			$('#modal1').modal('open');
       		});
@@ -275,7 +291,3 @@
 	</script>
 </body>
 </html>
-
-
-
-
