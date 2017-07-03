@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 var app = express();
-var PORT = 3000;
+//var PORT = 3000;
 
 //import the filr feild entries
 var friends = require('../data/friends.js');
