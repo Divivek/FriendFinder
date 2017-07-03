@@ -5,8 +5,13 @@ var path = require('path');
 
 // Configure the Express application
 var app = express();
+<<<<<<< HEAD
 //var PORT = process.env.PORT;
 var PORT = 3002;
+=======
+//var PORT = 3002;
+ var PORT = process.env.PORT;
+>>>>>>> 678d3fe730c9f2c2d19034dd0f1ea0119ad6927c
 // Expose the public directory to access CSS files
 app.use(express.static(path.join(__dirname, './app/public')));
 //app.use(express.static(path.join(__dirname, './app')));
