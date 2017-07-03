@@ -1,7 +1,7 @@
 // Data structure which will hold the friends dataArray
 var friendsArray = [{
 name   : 'Emily',
-photo  : 'https//www.pexels.com/photo/blonde-haired-woman-in-blue-shirt-y-27411/',
+photo  : 'https://static.pexels.com/photos/27411/pexels-photo-27411.jpg',
 scores :[
 			'1',
 			'3',
@@ -17,7 +17,7 @@ scores :[
 },
 {
 name   : 'Jacob',
-photo  :'https://www.pexels.com/photo/man-young-happy-smiling-91227/',
+photo  :'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg',
 scores :[
 			'2',
 			'4',
@@ -33,7 +33,7 @@ scores :[
 },
 {
 name   : 'john',
-photo  : 'https://www.pexels.com/photo/man-wearing-blue-denim-buttons-up-long-sleeve-and-blace-frame-eyelgasses-26939/',
+photo  : 'https://static.pexels.com/photos/26939/pexels-photo-26939.jpg',
 scores :[
 			'3',
 			'2',
@@ -50,7 +50,7 @@ scores :[
 },
 {
 name   : 'Samantha',
-photo  : 'https://www.pexels.com/photo/woman-in-white-v-neck-shirt-in-selective-focus-photography-157023/',
+photo  : 'https://www.pexels.com/photo/woman-in-white-v-neck-shirt-in-selective-focus-photography-157023',
 scores :[
 			'2',
 			'4',
@@ -67,7 +67,7 @@ scores :[
 {
 
 name   : 'Sinthiya',
-photo  : 'https://www.pexels.com/photo/adult-beautiful-blonde-blur-324658/',
+photo  : 'https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?w=940&h=650&auto=compress&cs=tinysrgb',
 scores :[
 			'2',
 			'4',
@@ -84,7 +84,7 @@ scores :[
 {
 
 name   : 'Matt',
-photo  : 'https://www.pexels.com/photo/portrait-of-young-man-251829/',
+photo  : 'https://images.pexels.com/photos/251829/pexels-photo-251829.jpeg?w=940&h=650&auto=compress&cs=tinysrgb',
 scores :[
 			'1',
 			'2',
@@ -101,7 +101,7 @@ scores :[
 {
 
 name   : 'Jonathan',
-photo  : 'https://www.pexels.com/photo/adult-african-ethnicity-bow-tie-cap-173295/',
+photo  : 'https://static.pexels.com/photos/173295/pexels-photo-173295.jpeg',
 scores :[
 			'4',
 			'3',
@@ -118,7 +118,7 @@ scores :[
 {
 
 name   : 'Richa',
-photo  : 'https://www.pexels.com/photo/adult-beautiful-blur-brunette-295564/',
+photo  : 'https://images.pexels.com/photos/295564/pexels-photo-295564.jpeg?w=940&h=650&auto=compress&cs=tinysrgb',
 scores :[
 			'2',
 			'5',
@@ -135,7 +135,7 @@ scores :[
 {
 
 name   : 'Rich',
-photo  : 'https://www.pexels.com/photo/man-wearing-teal-and-black-dress-up-shirt-sitting-on-armchair-65108/',
+photo  : 'https://burst.shopifycdn.com/photos/man-stroking-beard_925x@2x.jpg',
 scores :[
 			'3',
 			'3',
