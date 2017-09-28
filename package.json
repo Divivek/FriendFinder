@@ -1,27 +1,12 @@
-{
-  "name": "FriendFinder",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Divivek/FriendFinder.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Divivek/FriendFinder/issues"
-  },
-  "homepage": "https://github.com/Divivek/FriendFinder#readme"
-}
+devine sign-
+what is match making--- match making is an advance personalize compatibility app, which matches according to astro signs,date, time and place of birth.
+
+we developed the app react js es 15 in used match making rest api from vedic rishi to generate match report of the prospective male and female. the api required the latitude and longitude of both. to get latitute and longitude we used google api. astro sdk provided by vedic rishi did not support asyncronus Api call so we re wrote the sdk with allback funtionalkit
+
+Also created an additional feature to show the zodiac sign from date of birth. we used a node module horoscope.
+
+Astro api is post based api with custum headers.so we could not use axios to post the call.so we rewrote the astro sdk with http and call back funtionality..
+
+
+
+
