@@ -1,7 +1,7 @@
 // Data structure which will hold the friends dataArray
 var friendsArray = [{
 name   : 'Emily',
-photo  : 'https://static.pexels.com/photos/27411/pexels-photo-27411.jpg',
+photo  : 'https://static.pexels.com/photos/235462/pexels-photo-235462.jpeg',
 scores :[
 			'1',
 			'3',
@@ -33,7 +33,9 @@ scores :[
 },
 {
 name   : 'john',
-photo  : 'https://static.pexels.com/photos/26939/pexels-photo-26939.jpg',
+photo  : 'https://static.pexels.com/photos/220453/pexels-photo-220453.jpeg',
+
+
 scores :[
 			'3',
 			'2',
@@ -50,7 +52,7 @@ scores :[
 },
 {
 name   : 'Samantha',
-photo  : 'https://www.pexels.com/photo/woman-in-white-v-neck-shirt-in-selective-focus-photography-157023',
+photo  : 'https://static.pexels.com/photos/157023/pexels-photo-157023.jpeg',
 scores :[
 			'2',
 			'4',
@@ -67,7 +69,7 @@ scores :[
 {
 
 name   : 'Sinthiya',
-photo  : 'https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?w=940&h=650&auto=compress&cs=tinysrgb',
+photo  : 'https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg',
 scores :[
 			'2',
 			'4',
@@ -84,7 +86,7 @@ scores :[
 {
 
 name   : 'Matt',
-photo  : 'https://images.pexels.com/photos/251829/pexels-photo-251829.jpeg?w=940&h=650&auto=compress&cs=tinysrgb',
+photo  : 'https://static.pexels.com/photos/375880/pexels-photo-375880.jpeg',
 scores :[
 			'1',
 			'2',
@@ -118,7 +120,7 @@ scores :[
 {
 
 name   : 'Richa',
-photo  : 'https://images.pexels.com/photos/295564/pexels-photo-295564.jpeg?w=940&h=650&auto=compress&cs=tinysrgb',
+photo  : 'https://images.pexels.com/photos/295564/pexels-photo-295564.jpeg',
 scores :[
 			'2',
 			'5',
